@@ -1,0 +1,354 @@
+/* ===============================
+   SPORTGES VISUAL DASHBOARD THEME
+   =============================== */
+
+:root {
+  --primary: #0b1f47;
+  --accent: #00b4d8;
+  --accent-hover: #0090af;
+  --bg-gradient: linear-gradient(135deg, #0b1f47 0%, #142a61 50%, #0b1f47 100%);
+  --card-bg: #ffffff;
+  --card-dark: #1e293b;
+  --text-dark: #0f172a;
+  --text-light: #f8fafc;
+  --border: #334155;
+  --radius: 14px;
+  --shadow: 0 8px 25px rgba(0,0,0,.25);
+}
+
+body {
+  font-family: "Segoe UI", Roboto, sans-serif;
+  background: var(--bg-gradient);
+  min-height: 100vh;
+  margin: 0;
+  padding: 60px 0;
+  color: var(--text-light);
+  background-attachment: fixed;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #fff;
+  letter-spacing: -0.5px;
+  margin-bottom: 30px;
+}
+
+.container {
+  max-width: 880px;
+  margin: auto;
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 40px 50px;
+  color: var(--text-dark);
+  animation: fadeIn 0.6s ease;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0; transform: translateY(15px);}
+  to {opacity: 1; transform: translateY(0);}
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-top: 15px;
+  color: var(--primary);
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="datetime-local"],
+select, textarea {
+  width: 100%;
+  padding: 10px 12px;
+  margin-top: 5px;
+  border: 1px solid #cbd5e1;
+  border-radius: var(--radius);
+  background: #f8fafc;
+  font-size: 15px;
+  transition: all 0.2s ease;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(0,180,216,0.2);
+  background: #fff;
+}
+
+button {
+  margin-top: 25px;
+  background: var(--accent);
+  color: #fff;
+  padding: 14px 24px;
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
+  transition: all 0.2s ease;
+  box-shadow: 0 3px 10px rgba(0,0,0,.2);
+}
+button:hover {
+  background: var(--accent-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 15px rgba(0,0,0,.25);
+}
+
+a.btn-back {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 12px 18px;
+  background: #e2e8f0;
+  color: var(--text-dark);
+  text-decoration: none;
+  border-radius: var(--radius);
+  font-weight: 600;
+  transition: 0.2s;
+}
+a.btn-back:hover {
+  background: #cbd5e1;
+}
+
+/* Cards do Dashboard principal */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+  gap: 25px;
+  margin-top: 40px;
+}
+.card {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: 0 5px 18px rgba(0,0,0,.2);
+  text-align: center;
+  padding: 30px 20px;
+  transition: transform 0.25s, box-shadow 0.25s;
+  cursor: pointer;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 28px rgba(0,0,0,.35);
+}
+.card i {
+  font-size: 34px;
+  color: var(--accent);
+  margin-bottom: 10px;
+}
+.card span {
+  display: block;
+  font-weight: 600;
+  font-size: 17px;
+  color: var(--text-dark);
+}
+/* ====== SPORTGES NAVBAR ====== */
+.navbar {
+  background: #0b1f47;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 30px;
+  color: white;
+  font-weight: 500;
+  box-shadow: 0 4px 12px rgba(0,0,0,.3);
+}
+.navbar .logo {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: #00b4d8;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.navbar li {
+  position: relative;
+}
+.navbar a {
+  display: block;
+  padding: 10px 18px;
+  color: white;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.navbar a:hover {
+  background: #1d3557;
+  color: #00b4d8;
+}
+.navbar li ul {
+  display: none;
+  position: absolute;
+  background: #142a61;
+  top: 100%;
+  left: 0;
+  min-width: 200px;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 6px 20px rgba(0,0,0,.3);
+}
+.navbar li:hover ul {
+  display: block;
+}
+.navbar li ul li a {
+  padding: 10px 16px;
+}
+.navbar .user {
+  font-size: 15px;
+  color: #f8fafc;
+}
+/* ===== SPORTGES TOP MENU ===== */
+.navbar {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  background: linear-gradient(135deg,#0b1f47,#102a69);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+  box-shadow: 0 4px 12px rgba(0,0,0,.3);
+  z-index: 1000;
+}
+
+.navbar .logo {
+  font-size: 22px;
+  font-weight: 700;
+  color: #00b4d8;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  position: relative;
+}
+
+.navbar a {
+  display: block;
+  padding: 10px 18px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.25s;
+}
+
+.navbar a:hover {
+  background: #1d3557;
+  color: #00b4d8;
+  border-radius: 6px;
+}
+
+.navbar li ul {
+  display: none;
+  position: absolute;
+  background: #142a61;
+  top: 100%;
+  left: 0;
+  min-width: 220px;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 6px 20px rgba(0,0,0,.3);
+}
+
+.navbar li:hover ul { display: block; }
+
+.navbar li ul li a {
+  padding: 10px 18px;
+  font-weight: 400;
+}
+
+.user-info {
+  color: #f1f5f9;
+  font-size: 15px;
+  font-weight: 500;
+}
+.content {
+  padding-top: 80px; /* para o menu não cobrir o conteúdo */
+}
+/* ===== SPORTGES GLOBAL NAVBAR ===== */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Roboto, sans-serif;
+  background: #f1f5f9;
+}
+
+.navbar {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  background: linear-gradient(135deg,#0b1f47,#142a61);
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 25px;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,.25);
+  z-index: 9999;
+}
+
+.navbar .logo {
+  font-size: 20px;
+  font-weight: 700;
+  color: #00b4d8;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  position: relative;
+}
+
+.navbar a {
+  display: block;
+  padding: 10px 16px;
+  color: white;
+  text-decoration: none;
+  transition: 0.2s;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  background: rgba(255,255,255,0.1);
+  color: #00b4d8;
+  border-radius: 8px;
+}
+
+.navbar li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #142a61;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 6px 20px rgba(0,0,0,.3);
+  min-width: 200px;
+}
+
+.navbar li:hover ul { display: block; }
+
+.navbar li ul li a {
+  padding: 10px 16px;
+  font-size: 15px;
+  color: #fff;
+}
+
+.user-info {
+  font-size: 14px;
+  color: #cbd5e1;
+}
+
+.content {
+  padding-top: 80px; /* compensa o menu fixo */
+}
