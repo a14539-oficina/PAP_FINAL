@@ -28,7 +28,7 @@ if ($isTreinador && isset($_SESSION['club_id'])) {
     $treinadorClubId = intval($_SESSION['club_id']);
 }
 
-$base = '/SportGes/modules';
+$base = '/modules';
 ?>
 
 <style>
@@ -151,7 +151,7 @@ $base = '/SportGes/modules';
 
         <!-- Dashboard -->
         <li class="nav-item">
-            <a href="/SportGes/dashboard.php"
+            <a href="/dashboard.php"
                class="nav-link <?= basename($_SERVER['PHP_SELF']) == 'dashboard.php' ? 'active' : '' ?>">
                 <i class='bx bxs-dashboard'></i><span>Dashboard</span>
             </a>
@@ -263,7 +263,7 @@ $base = '/SportGes/modules';
 
         <!-- Definições -->
         <li class="nav-item" style="margin-top: auto; border-top: 1px solid rgba(0,0,0,0.06); padding-top: 12px;">
-            <a href="/SportGes/definicoes.php"
+            <a href="/definicoes.php"
                class="nav-link <?= strpos($_SERVER['PHP_SELF'], 'definicoes') !== false || basename($_SERVER['PHP_SELF']) == 'criar_utilizador.php' ? 'active' : '' ?>">
                 <i class='bx bx-cog'></i><span>Definições</span>
             </a>
@@ -271,7 +271,7 @@ $base = '/SportGes/modules';
 
         <!-- Sair -->
         <li class="nav-item" style="margin-bottom: 12px;">
-            <a href="/SportGes/logout.php" class="nav-link">
+            <a href="/logout.php" class="nav-link">
                 <i class='bx bx-log-out'></i><span>Sair</span>
             </a>
         </li>
