@@ -1,13 +1,13 @@
 # SportGes — Sistema de Gestão Desportiva
 
-PAP · Aluno n.º 14539 · Gestão e Programação de Sistemas Informáticos**
-Professor Orientador: Luís Mendes | Alojamento: InfinityFree (`sql300.infinityfree.com`)
+> **PAP · Aluno n.º 14539 · Gestão e Programação de Sistemas Informáticos**  
+> Professor Orientador: Luís Mendes | Alojamento: InfinityFree (`sql300.infinityfree.com`)
 
 ---
 
 ## Descrição
 
-O **SportGes** é uma plataforma web completa para a gestão de clubes e equipas desportivas. Permite gerir jogadores, staff, jogos, treinos, épocas desportivas e finanças, com um sistema de permissões por perfil de utilizador (Admin Principal, Administrador de Clube, Treinador).
+O **SportGes** é uma plataforma web completa para a gestão de clubes e equipas desportivas. Permite gerir jogadores, staff, jogos, treinos, épocas desportivas e finanças, com um sistema de permissões granular por perfil de utilizador.
 
 ---
 
@@ -18,7 +18,7 @@ O **SportGes** é uma plataforma web completa para a gestão de clubes e equipas
 | PHP | 7.4+ | Lógica de servidor |
 | MySQL | 5.7+ | Base de dados relacional |
 | HTML5 / CSS3 / JavaScript | ES6+ | Front-end |
-| PHPMailer | 6.x | Envio de e-mails (via Composer) |
+| PHPMailer | 7.x | Envio de e-mails (via Composer) |
 | Bootstrap Icons / Boxicons | — | Ícones de interface |
 
 ---
@@ -51,7 +51,7 @@ Edite o ficheiro `config/db.php`:
 ```php
 $host   = "sql300.infinityfree.com";
 $user   = "if0_42155522";
-$pass   = "9ZWjHqmsS880KkX";
+$pass   = "SUA_SENHA_AQUI";
 $dbname = "if0_42155522_sportges";
 $port   = 3306;
 ```
@@ -76,7 +76,7 @@ chmod 755 modules/equipas/logos/
 Edite `recuperar_senha.php` e `contacto.php` com as suas credenciais SMTP.
 
 ### 7. Acesso ao sistema
-Abra o browser e aceda ao endereço do seu servidor. Registe o primeiro utilizador como **Administrador Principal**.
+Abra o browser e aceda ao endereço do seu servidor. Registe o primeiro utilizador como **SuperAdmin**.
 
 ---
 
@@ -84,54 +84,68 @@ Abra o browser e aceda ao endereço do seu servidor. Registe o primeiro utilizad
 
 ```
 SportGes/
-├── config/                  → Configuração da base de dados
-├── includes/                → Componentes reutilizáveis (menu, header, footer)
-├── modules/                 → Módulos funcionais
-│   ├── clubes/
-│   ├── equipas/
-│   ├── jogadores/
-│   ├── jogos/
-│   ├── treinos/
-│   ├── epoca/
-│   ├── staff/
-│   ├── estatisticas/
-│   ├── despesas/
-│   ├── lucro/
-│   └── livescore/
-├── vendor/                  → PHPMailer (Composer)
-├── logos/                   → Fotos de jogadores
-├── dashboard.php            → Painel principal
-├── login.php                → Autenticação
-├── pagina_inicio.php        → Página pública
-└── README.md                → Este ficheiro
+├── config/                        → Configuração da base de dados e controlo de acesso
+│   ├── db.php                     → Ligação MySQL
+│   ├── checkClubAccess.php        → Verificação de acesso por clube
+│   └── base de dados/             → Ficheiro(s) SQL de instalação
+├── includes/                      → Componentes reutilizáveis
+│   ├── auth_guard.php             → Proteção de sessão e definição de roles
+│   ├── role_helper.php            → Funções auxiliares de permissões
+│   ├── menu.php / sidebar.php     → Navegação
+│   └── topbar.php / footer.php    → Layout global
+├── modules/                       → Módulos funcionais
+│   ├── clubes/                    → CRUD de clubes com logótipo
+│   ├── equipas/                   → Equipas por clube/época, transferências
+│   ├── jogadores/                 → Fichas, fotos, estatísticas, playerCentral
+│   ├── jogos/                     → Resultados, golos, assistências, cartões
+│   ├── treinos/                   → Agendamento e registo de presenças
+│   ├── epoca/                     → Criação e gestão de épocas desportivas
+│   ├── staff/                     → Registo de treinadores e auxiliares
+│   ├── estatisticas/              → Rankings e estatísticas individuais/coletivas
+│   ├── despesas/                  → Despesas e relatórios financeiros
+│   ├── lucro/                     → Receitas, mensalidades e relatórios
+│   └── livescore/                 → Acompanhamento de jogos em tempo real
+├── public/
+│   └── css/                       → Folhas de estilo (style.css, dashboard.css)
+├── vendor/                        → PHPMailer (gerido pelo Composer)
+├── logos/                         → Fotos de jogadores
+├── dashboard.php                  → Painel principal
+├── login.php                      → Autenticação
+├── registro.php                   → Registo de utilizadores
+├── recuperar_senha.php            → Recuperação de palavra-passe
+├── meu_perfil.php                 → Perfil do utilizador
+├── pagina_inicio.php              → Página pública
+├── contacto.php                   → Formulário de contacto
+└── composer.json                  → Dependências PHP
 ```
 
 ---
 
 ## Perfis de Utilizador
 
-| Perfil | Role | Descrição |
+| Perfil | Role | Permissões |
 |---|:---:|---|
-| SuperAdmin | `0` | Acesso total ao sistema: gere todos os clubes, utilizadores, épocas e configurações globais. |
-| Administrador | `1` | Gere o seu clube: equipas, jogadores, staff, finanças e jogos do clube associado. |
-| Diretor | `2` | Supervisiona o clube, consulta relatórios financeiros e estatísticas, sem permissões de edição. |
-| Treinador | `3` | Visualiza a equipa associada, regista treinos e consulta estatísticas dos jogadores. |
-| Jogador | `4` | Acede ao seu perfil, consulta estatísticas pessoais, jogos e sessões de treino da sua equipa. |
+| **SuperAdmin** | `0` | Acesso total: gere todos os clubes, utilizadores, épocas e configurações globais. Visualiza totais financeiros de todos os clubes. |
+| **Administrador** | `1` | Gere o seu clube: equipas, jogadores, staff, finanças e jogos. Acesso total aos módulos do clube associado. |
+| **Diretor** | `2` | Supervisiona o clube: consulta relatórios financeiros, estatísticas e toda a atividade desportiva. Sem permissões de edição. |
+| **Treinador** | `3` | Visualiza a equipa associada, regista treinos e consulta estatísticas dos jogadores. |
+| **Jogador** | `4` | Acede ao seu perfil, consulta estatísticas pessoais, jogos e sessões de treino da sua equipa. |
 
 ---
 
 ## Módulos Disponíveis
 
 - **Clubes** — Criação e gestão de clubes com logótipo
-- **Equipas** — Equipas por clube e época, com logótipo
-- **Jogadores** — Ficha completa, foto, estatísticas e transferências
+- **Equipas** — Equipas por clube e época, com logótipo e transferências de jogadores
+- **Jogadores** — Ficha completa, foto, posição, estatísticas e página `playerCentral`
 - **Jogos** — Resultados, golos, assistências e cartões por jogo
-- **Treinos** — Agendamento e registo de presenças
-- **Época Desportiva** — Criação e gestão de épocas
-- **Staff** — Registo de treinadores e auxiliares
-- **Estatísticas** — Rankings e estatísticas individuais/coletivas
-- **Finanças** — Receitas, despesas e relatórios financeiros
-- **LiveScore** — Acompanhamento de jogos em tempo real
+- **Treinos** — Agendamento, registo de presenças e consulta por equipa
+- **Época Desportiva** — Criação, edição e gestão de épocas (temporadas)
+- **Staff** — Registo e gestão de treinadores e auxiliares
+- **Estatísticas** — Rankings individuais e coletivos por época e por jogo
+- **Despesas** — Registo de despesas, categorias e geração automática de relatórios (cron)
+- **Receitas / Mensalidades** — Receitas, mensalidades de jogadores e relatórios financeiros
+- **LiveScore** — Registo de golos em tempo real e finalização de jogos
 
 ---
 
@@ -139,8 +153,10 @@ SportGes/
 
 - Palavras-passe encriptadas com `password_hash()` / `password_verify()`
 - Proteção CSRF em formulários sensíveis
-- Validação de sessão em todas as páginas privadas (`auth_guard.php`)
-- Controlo de acesso por papel (role) em todas as operações
+- Validação de sessão em todas as páginas privadas via `auth_guard.php`
+- Controlo de acesso por role em todas as operações (SuperAdmin, Admin, Diretor, Treinador, Jogador)
+- Sanitização de inputs com `htmlspecialchars()` e prepared statements (`mysqli`)
+- Charset `utf8mb4` na ligação à base de dados
 
 ---
 
