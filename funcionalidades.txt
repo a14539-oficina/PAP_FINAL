@@ -1,0 +1,16 @@
+------------------------------------------------------------------------------------------------
+Equipas - funcionalidades
+
+Visualização de todos os jogadores de uma equipa com foto, nome, número de camisola, posição, idade e estado (ativo/inativo)
+Vista em grelha ou lista, com pesquisa em tempo real por nome
+Modal de detalhes do jogador ao clicar no card, com estatísticas da época (jogos, minutos, titular, golos, assistências, amarelos)
+Informação pessoal do jogador no modal (idade, data de nascimento, número de camisola, posição)
+Botão "Transferir jogador para..." visível logo após as estatísticas, apenas para utilizadores com permissão
+A secção de transferência expande/colapsa ao clicar no botão, com scroll automático até à lista de equipas
+Lista de equipas disponíveis para transferência (excluindo a equipa atual do jogador)
+Botão "Transferir" individual por equipa de destino
+Confirmação visual de sucesso após transferência, com reload automático da página
+Controlo de permissões — apenas utilizadores com role de administrador ou o admin principal podem transferir jogadores
+
+------------------------------------------------------------------------------------------------
+

@@ -1,0 +1,1454 @@
+[2026-06-11 05:05:25] ========== INÍCIO DEBUG ==========
+[2026-06-11 05:05:25] Action: save_player
+[2026-06-11 05:05:25] POST ID: 210
+[2026-06-11 05:05:25] POST completo: Array
+(
+    [action] => save_player
+    [id] => 210
+    [position_id] => LW
+    [primeiro_nome] => Diogo
+    [ultimo_nome] => Almeida
+    [data_nascimento] => 1998-10-25
+    [altura_cm] => 0
+    [peso_kg] => 0.00
+    [pe_dominante] => D
+    [ativo] => 1
+    [team_id] => 51
+    [position_radio] => LW
+    [wage_monthly] => 
+    [contract_season_id] => 6
+    [contract_clauses] => 
+    [mensalidade_epoca] => 6
+    [mensalidade_valor] => 
+    [mensalidade_metodo_pagamento] => 
+    [mensalidade_observacoes] => 
+    [has_contract] => 0
+    [has_mensalidade] => 0
+)
+
+[2026-06-11 05:05:25] FILES recebidos: Array
+(
+    [photo] => Array
+        (
+            [name] => OIP.jpg
+            [full_path] => OIP.jpg
+            [type] => image/jpeg
+            [tmp_name] => /home/uploads/phppXZxB1
+            [error] => 0
+            [size] => 3101
+        )
+
+)
+
+[2026-06-11 05:05:25] ✅ Arquivo 'photo' existe em FILES
+[2026-06-11 05:05:25] Nome: OIP.jpg
+[2026-06-11 05:05:25] Tipo: image/jpeg
+[2026-06-11 05:05:25] Tamanho: 3101 bytes
+[2026-06-11 05:05:25] Erro: 0
+[2026-06-11 05:05:25] Temp: /home/uploads/phppXZxB1
+[2026-06-11 05:05:25] ✅ Arquivo temporário existe
+[2026-06-11 05:05:25] Upload max size: 20M
+[2026-06-11 05:05:25] Post max size: 30M
+[2026-06-11 05:05:25] Memory limit: 512M
+[2026-06-11 05:05:25] ========== FIM DEBUG ==========
+
+[2026-06-11 05:05:25] 📋 Dados recebidos:
+[2026-06-11 05:05:25] ID: 210
+[2026-06-11 05:05:25] Nome: Diogo Almeida
+[2026-06-11 05:05:25] Posição: LW
+[2026-06-11 05:05:25] Equipa: 51
+[2026-06-11 05:05:25] Foto antiga: /logos/player_1779960296_6a1809e85cb61.jpg
+[2026-06-11 05:05:25] 🔄 Iniciando upload da foto...
+[2026-06-11 05:05:25] 📁 Diretório criado: /home/vol9_8/infinityfree.com/if0_42155522/htdocs/logos/
+[2026-06-11 05:05:25] Tentando mover de: /home/uploads/phppXZxB1
+[2026-06-11 05:05:25] Para: /home/vol9_8/infinityfree.com/if0_42155522/htdocs/logos/player_1781168725_6a2a7a553db71.jpg
+[2026-06-11 05:05:25] ✅ Foto guardada com sucesso: /logos/player_1781168725_6a2a7a553db71.jpg
+[2026-06-11 05:05:25] 🔄 Atualizando jogador ID: 210
+[2026-06-11 05:05:25] ✅ Jogador atualizado
+[2026-06-11 05:07:18] ========== INÍCIO DEBUG ==========
+[2026-06-11 05:07:18] Action: save_player
+[2026-06-11 05:07:18] POST ID: 223
+[2026-06-11 05:07:18] POST completo: Array
+(
+    [action] => save_player
+    [id] => 223
+    [position_id] => RW
+    [primeiro_nome] => Rodrigo
+    [ultimo_nome] => Amorim
+    [data_nascimento] => 2007-11-08
+    [altura_cm] => 175
+    [peso_kg] => 65.00
+    [pe_dominante] => D
+    [ativo] => 1
+    [team_id] => 52
+    [position_radio] => RW
+    [wage_monthly] => 
+    [contract_season_id] => 6
+    [contract_clauses] => 
+    [mensalidade_epoca] => 6
+    [mensalidade_valor] => 
+    [mensalidade_metodo_pagamento] => 
+    [mensalidade_observacoes] => 
+    [has_contract] => 0
+    [has_mensalidade] => 0
+)
+
+[2026-06-11 05:07:18] FILES recebidos: Array
+(
+    [photo] => Array
+        (
+            [name] => 1183159_rodrigo_amorim_20241007155613.jpg
+            [full_path] => 1183159_rodrigo_amorim_20241007155613.jpg
+            [type] => image/jpeg
+            [tmp_name] => /home/uploads/phpEWejox
+            [error] => 0
+            [size] => 61251
+        )
+
+)
+
+[2026-06-11 05:07:18] ✅ Arquivo 'photo' existe em FILES
+[2026-06-11 05:07:18] Nome: 1183159_rodrigo_amorim_20241007155613.jpg
+[2026-06-11 05:07:18] Tipo: image/jpeg
+[2026-06-11 05:07:18] Tamanho: 61251 bytes
+[2026-06-11 05:07:18] Erro: 0
+[2026-06-11 05:07:18] Temp: /home/uploads/phpEWejox
+[2026-06-11 05:07:18] ✅ Arquivo temporário existe
+[2026-06-11 05:07:18] Upload max size: 20M
+[2026-06-11 05:07:18] Post max size: 30M
+[2026-06-11 05:07:18] Memory limit: 512M
+[2026-06-11 05:07:18] ========== FIM DEBUG ==========
+
+[2026-06-11 05:07:18] 📋 Dados recebidos:
+[2026-06-11 05:07:18] ID: 223
+[2026-06-11 05:07:18] Nome: Rodrigo Amorim
+[2026-06-11 05:07:18] Posição: RW
+[2026-06-11 05:07:18] Equipa: 52
+[2026-06-11 05:07:18] Foto antiga: /logos/player_1779962415_6a18122fdd018.jpg
+[2026-06-11 05:07:18] 🔄 Iniciando upload da foto...
+[2026-06-11 05:07:18] Tentando mover de: /home/uploads/phpEWejox
+[2026-06-11 05:07:18] Para: /home/vol9_8/infinityfree.com/if0_42155522/htdocs/logos/player_1781168838_6a2a7ac63da51.jpg
+[2026-06-11 05:07:18] ✅ Foto guardada com sucesso: /logos/player_1781168838_6a2a7ac63da51.jpg
+[2026-06-11 05:07:18] 🔄 Atualizando jogador ID: 223
+[2026-06-11 05:07:18] ✅ Jogador atualizado
+[2026-06-11 05:07:49] ========== INÍCIO DEBUG ==========
+[2026-06-11 05:07:49] Action: save_player
+[2026-06-11 05:07:49] POST ID: 214
+[2026-06-11 05:07:49] POST completo: Array
+(
+    [action] => save_player
+    [id] => 214
+    [position_id] => RB
+    [primeiro_nome] => Gonçalo
+    [ultimo_nome] => Cardoso
+    [data_nascimento] => 2007-07-26
+    [altura_cm] => 175
+    [peso_kg] => 68.00
+    [pe_dominante] => D
+    [ativo] => 1
+    [team_id] => 52
+    [position_radio] => RB
+    [wage_monthly] => 
+    [contract_season_id] => 6
+    [contract_clauses] => 
+    [mensalidade_epoca] => 6
+    [mensalidade_valor] => 
+    [mensalidade_metodo_pagamento] => 
+    [mensalidade_observacoes] => 
+    [has_contract] => 0
+    [has_mensalidade] => 0
+)
+
+[2026-06-11 05:07:49] FILES recebidos: Array
+(
+    [photo] => Array
+        (
+            [name] => 1346620_goncalo_cardoso_20250924153505.jpg
+            [full_path] => 1346620_goncalo_cardoso_20250924153505.jpg
+            [type] => image/jpeg
+            [tmp_name] => /home/uploads/phpRCST6X
+            [error] => 0
+            [size] => 18329
+        )
+
+)
+
+[2026-06-11 05:07:49] ✅ Arquivo 'photo' existe em FILES
+[2026-06-11 05:07:49] Nome: 1346620_goncalo_cardoso_20250924153505.jpg
+[2026-06-11 05:07:49] Tipo: image/jpeg
+[2026-06-11 05:07:49] Tamanho: 18329 bytes
+[2026-06-11 05:07:49] Erro: 0
+[2026-06-11 05:07:49] Temp: /home/uploads/phpRCST6X
+[2026-06-11 05:07:49] ✅ Arquivo temporário existe
+[2026-06-11 05:07:49] Upload max size: 20M
+[2026-06-11 05:07:49] Post max size: 30M
+[2026-06-11 05:07:49] Memory limit: 512M
+[2026-06-11 05:07:49] ========== FIM DEBUG ==========
+
+[2026-06-11 05:07:49] 📋 Dados recebidos:
+[2026-06-11 05:07:49] ID: 214
+[2026-06-11 05:07:49] Nome: Gonçalo Cardoso
+[2026-06-11 05:07:49] Posição: RB
+[2026-06-11 05:07:49] Equipa: 52
+[2026-06-11 05:07:49] Foto antiga: /logos/player_1779961261_6a180dad66ea7.jpg
+[2026-06-11 05:07:49] 🔄 Iniciando upload da foto...
+[2026-06-11 05:07:49] Tentando mover de: /home/uploads/phpRCST6X
+[2026-06-11 05:07:49] Para: /home/vol9_8/infinityfree.com/if0_42155522/htdocs/logos/player_1781168869_6a2a7ae5806bf.jpg
+[2026-06-11 05:07:49] ✅ Foto guardada com sucesso: /logos/player_1781168869_6a2a7ae5806bf.jpg
+[2026-06-11 05:07:49] 🔄 Atualizando jogador ID: 214
+[2026-06-11 05:07:49] ✅ Jogador atualizado
+[2026-06-11 05:08:13] ========== INÍCIO DEBUG ==========
+[2026-06-11 05:08:13] Action: save_player
+[2026-06-11 05:08:13] POST ID: 221
+[2026-06-11 05:08:13] POST completo: Array
+(
+    [action] => save_player
+    [id] => 221
+    [position_id] => LW
+    [primeiro_nome] => Guilherme
+    [ultimo_nome] => Cardoso
+    [data_nascimento] => 2007-07-26
+    [altura_cm] => 175
+    [peso_kg] => 67.00
+    [pe_dominante] => D
+    [ativo] => 1
+    [team_id] => 52
+    [position_radio] => LW
+    [wage_monthly] => 
+    [contract_season_id] => 6
+    [contract_clauses] => 
+    [mensalidade_epoca] => 6
+    [mensalidade_valor] => 
+    [mensalidade_metodo_pagamento] => 
+    [mensalidade_observacoes] => 
+    [has_contract] => 0
+    [has_mensalidade] => 0
+)
+
+[2026-06-11 05:08:13] FILES recebidos: Array
+(
+    [photo] => Array
+        (
+            [name] => 1346618_guilherme_cardoso_20250924152831.jpg
+            [full_path] => 1346618_guilherme_cardoso_20250924152831.jpg
+            [type] => image/jpeg
+            [tmp_name] => /home/uploads/phpMrD90F
+            [error] => 0
+            [size] => 44072
+        )
+
+)
+
+[2026-06-11 05:08:13] ✅ Arquivo 'photo' existe em FILES
+[2026-06-11 05:08:13] Nome: 1346618_guilherme_cardoso_20250924152831.jpg
+[2026-06-11 05:08:13] Tipo: image/jpeg
+[2026-06-11 05:08:13] Tamanho: 44072 bytes
+[2026-06-11 05:08:13] Erro: 0
+[2026-06-11 05:08:13] Temp: /home/uploads/phpMrD90F
+[2026-06-11 05:08:13] ✅ Arquivo temporário existe
+[2026-06-11 05:08:13] Upload max size: 20M
+[2026-06-11 05:08:13] Post max size: 30M
+[2026-06-11 05:08:13] Memory limit: 512M
+[2026-06-11 05:08:13] ========== FIM DEBUG ==========
+
+[2026-06-11 05:08:13] 📋 Dados recebidos:
+[2026-06-11 05:08:13] ID: 221
+[2026-06-11 05:08:13] Nome: Guilherme Cardoso
+[2026-06-11 05:08:13] Posição: LW
+[2026-06-11 05:08:13] Equipa: 52
+[2026-06-11 05:08:13] Foto antiga: /logos/player_1779961978_6a18107a8ade2.jpg
+[2026-06-11 05:08:13] 🔄 Iniciando upload da foto...
+[2026-06-11 05:08:13] Tentando mover de: /home/uploads/phpMrD90F
+[2026-06-11 05:08:13] Para: /home/vol9_8/infinityfree.com/if0_42155522/htdocs/logos/player_1781168893_6a2a7afd5a275.jpg
+[2026-06-11 05:08:13] ✅ Foto guardada com sucesso: /logos/player_1781168893_6a2a7afd5a275.jpg
+[2026-06-11 05:08:13] 🔄 Atualizando jogador ID: 221
+[2026-06-11 05:08:13] ✅ Jogador atualizado
+[2026-06-11 05:08:25] ========== INÍCIO DEBUG ==========
+[2026-06-11 05:08:25] Action: save_player
+[2026-06-11 05:08:25] POST ID: 213
+[2026-06-11 05:08:25] POST completo: Array
+(
+    [action] => save_player
+    [id] => 213
+    [position_id] => GK
+    [primeiro_nome] => Dinis
+    [ultimo_nome] => Costa
+    [data_nascimento] => 2007-04-04
+    [altura_cm] => 180
+    [peso_kg] => 80.00
+    [pe_dominante] => D
+    [ativo] => 1
+    [team_id] => 52
+    [position_radio] => GK
+    [wage_monthly] => 
+    [contract_season_id] => 6
+    [contract_clauses] => 
+    [mensalidade_epoca] => 6
+    [mensalidade_valor] => 
+    [mensalidade_metodo_pagamento] => 
+    [mensalidade_observacoes] => 
+    [has_contract] => 0
+    [has_mensalidade] => 0
+)
+
+[2026-06-11 05:08:25] FILES recebidos: Array
+(
+    [photo] => Array
+        (
+            [name] => 1323198_dinis_costa_20250811123600.jpg
+            [full_path] => 1323198_dinis_costa_20250811123600.jpg
+            [type] => image/jpeg
+            [tmp_name] => /home/uploads/phpA2M94e
+            [error] => 0
+            [size] => 77645
+        )
+
+)
+
+[2026-06-11 05:08:25] ✅ Arquivo 'photo' existe em FILES
+[2026-06-11 05:08:25] Nome: 1323198_dinis_costa_20250811123600.jpg
+[2026-06-11 05:08:25] Tipo: image/jpeg
+[2026-06-11 05:08:25] Tamanho: 77645 bytes
+[2026-06-11 05:08:25] Erro: 0
+[2026-06-11 05:08:25] Temp: /home/uploads/phpA2M94e
+[2026-06-11 05:08:25] ✅ Arquivo temporário existe
+[2026-06-11 05:08:25] Upload max size: 20M
+[2026-06-11 05:08:25] Post max size: 30M
+[2026-06-11 05:08:25] Memory limit: 512M
+[2026-06-11 05:08:25] ========== FIM DEBUG ==========
+
+[2026-06-11 05:08:25] 📋 Dados recebidos:
+[2026-06-11 05:08:25] ID: 213
+[2026-06-11 05:08:25] Nome: Dinis Costa
+[2026-06-11 05:08:25] Posição: GK
+[2026-06-11 05:08:25] Equipa: 52
+[2026-06-11 05:08:25] Foto antiga: /logos/player_1779961158_6a180d464f1b7.jpg
+[2026-06-11 05:08:25] 🔄 Iniciando upload da foto...
+[2026-06-11 05:08:25] Tentando mover de: /home/uploads/phpA2M94e
+[2026-06-11 05:08:25] Para: /home/vol9_8/infinityfree.com/if0_42155522/htdocs/logos/player_1781168905_6a2a7b0954527.jpg
+[2026-06-11 05:08:25] ✅ Foto guardada com sucesso: /logos/player_1781168905_6a2a7b0954527.jpg
+[2026-06-11 05:08:25] 🔄 Atualizando jogador ID: 213
+[2026-06-11 05:08:25] ✅ Jogador atualizado
+[2026-06-11 05:08:36] ========== INÍCIO DEBUG ==========
+[2026-06-11 05:08:36] Action: save_player
+[2026-06-11 05:08:36] POST ID: 218
+[2026-06-11 05:08:36] POST completo: Array
+(
+    [action] => save_player
+    [id] => 218
+    [position_id] => CM
+    [primeiro_nome] => Gonçalo
+    [ultimo_nome] => Hari
+    [data_nascimento] => 2007-08-05
+    [altura_cm] => 173
+    [peso_kg] => 70.00
+    [pe_dominante] => D
+    [ativo] => 1
+    [team_id] => 52
+    [position_radio] => CM
+    [wage_monthly] => 
+    [contract_season_id] => 6
+    [contract_clauses] => 
+    [mensalidade_epoca] => 6
+    [mensalidade_valor] => 
+    [mensalidade_metodo_pagamento] => 
+    [mensalidade_observacoes] => 
+    [has_contract] => 0
+    [has_mensalidade] => 0
+)
+
+[2026-06-11 05:08:36] FILES recebidos: Array
+(
+    [photo] => Array
+        (
+            [name] => 1346625_goncalo_hari_20250924153509.jpg
+            [full_path] => 1346625_goncalo_hari_20250924153509.jpg
+            [type] => image/jpeg
+            [tmp_name] => /home/uploads/phpFNGOau
+            [error] => 0
+            [size] => 42144
+        )
+
+)
+
+[2026-06-11 05:08:36] ✅ Arquivo 'photo' existe em FILES
+[2026-06-11 05:08:36] Nome: 1346625_goncalo_hari_20250924153509.jpg
+[2026-06-11 05:08:36] Tipo: image/jpeg
+[2026-06-11 05:08:36] Tamanho: 42144 bytes
+[2026-06-11 05:08:36] Erro: 0
+[2026-06-11 05:08:36] Temp: /home/uploads/phpFNGOau
+[2026-06-11 05:08:36] ✅ Arquivo temporário existe
+[2026-06-11 05:08:36] Upload max size: 20M
+[2026-06-11 05:08:36] Post max size: 30M
+[2026-06-11 05:08:36] Memory limit: 512M
+[2026-06-11 05:08:36] ========== FIM DEBUG ==========
+
+[2026-06-11 05:08:36] 📋 Dados recebidos:
+[2026-06-11 05:08:36] ID: 218
+[2026-06-11 05:08:36] Nome: Gonçalo Hari
+[2026-06-11 05:08:36] Posição: CM
+[2026-06-11 05:08:36] Equipa: 52
+[2026-06-11 05:08:36] Foto antiga: /logos/player_1779961659_6a180f3be6b30.jpg
+[2026-06-11 05:08:36] 🔄 Iniciando upload da foto...
+[2026-06-11 05:08:36] Tentando mover de: /home/uploads/phpFNGOau
+[2026-06-11 05:08:36] Para: /home/vol9_8/infinityfree.com/if0_42155522/htdocs/logos/player_1781168916_6a2a7b14dbc0e.jpg
+[2026-06-11 05:08:36] ✅ Foto guardada com sucesso: /logos/player_1781168916_6a2a7b14dbc0e.jpg
+[2026-06-11 05:08:36] 🔄 Atualizando jogador ID: 218
+[2026-06-11 05:08:36] ✅ Jogador atualizado
+[2026-06-11 05:09:15] ========== INÍCIO DEBUG ==========
+[2026-06-11 05:09:15] Action: save_player
+[2026-06-11 05:09:15] POST ID: 215
+[2026-06-11 05:09:15] POST completo: Array
+(
+    [action] => save_player
+    [id] => 215
+    [position_id] => CB
+    [primeiro_nome] => Pedro
+    [ultimo_nome] => Lourenço
+    [data_nascimento] => 2008-01-06
+    [altura_cm] => 175
+    [peso_kg] => 70.00
+    [pe_dominante] => D
+    [ativo] => 1
+    [team_id] => 52
+    [position_radio] => CB
+    [wage_monthly] => 
+    [contract_season_id] => 6
+    [contract_clauses] => 
+    [mensalidade_epoca] => 6
+    [mensalidade_valor] => 
+    [mensalidade_metodo_pagamento] => 
+    [mensalidade_observacoes] => 
+    [has_contract] => 0
+    [has_mensalidade] => 0
+)
+
+[2026-06-11 05:09:15] FILES recebidos: Array
+(
+    [photo] => Array
+        (
+            [name] => 1346630_pedro_lourenco_20250924153512.jpg
+            [full_path] => 1346630_pedro_lourenco_20250924153512.jpg
+            [type] => image/jpeg
+            [tmp_name] => /home/uploads/phpFKIPdy
+            [error] => 0
+            [size] => 37564
+        )
+
+)
+
+[2026-06-11 05:09:15] ✅ Arquivo 'photo' existe em FILES
+[2026-06-11 05:09:15] Nome: 1346630_pedro_lourenco_20250924153512.jpg
+[2026-06-11 05:09:15] Tipo: image/jpeg
+[2026-06-11 05:09:15] Tamanho: 37564 bytes
+[2026-06-11 05:09:15] Erro: 0
+[2026-06-11 05:09:15] Temp: /home/uploads/phpFKIPdy
+[2026-06-11 05:09:15] ✅ Arquivo temporário existe
+[2026-06-11 05:09:15] Upload max size: 20M
+[2026-06-11 05:09:15] Post max size: 30M
+[2026-06-11 05:09:15] Memory limit: 512M
+[2026-06-11 05:09:15] ========== FIM DEBUG ==========
+
+[2026-06-11 05:09:15] 📋 Dados recebidos:
+[2026-06-11 05:09:15] ID: 215
+[2026-06-11 05:09:15] Nome: Pedro Lourenço
+[2026-06-11 05:09:15] Posição: CB
+[2026-06-11 05:09:15] Equipa: 52
+[2026-06-11 05:09:15] Foto antiga: /logos/player_1779961315_6a180de3de35a.jpg
+[2026-06-11 05:09:15] 🔄 Iniciando upload da foto...
+[2026-06-11 05:09:15] Tentando mover de: /home/uploads/phpFKIPdy
+[2026-06-11 05:09:15] Para: /home/vol9_8/infinityfree.com/if0_42155522/htdocs/logos/player_1781168955_6a2a7b3b8a9ed.jpg
+[2026-06-11 05:09:15] ✅ Foto guardada com sucesso: /logos/player_1781168955_6a2a7b3b8a9ed.jpg
+[2026-06-11 05:09:15] 🔄 Atualizando jogador ID: 215
+[2026-06-11 05:09:15] ✅ Jogador atualizado
+[2026-06-11 05:09:42] ========== INÍCIO DEBUG ==========
+[2026-06-11 05:09:42] Action: save_player
+[2026-06-11 05:09:42] POST ID: 217
+[2026-06-11 05:09:42] POST completo: Array
+(
+    [action] => save_player
+    [id] => 217
+    [position_id] => LB
+    [primeiro_nome] => José
+    [ultimo_nome] => Moreira
+    [data_nascimento] => 2007-09-24
+    [altura_cm] => 175
+    [peso_kg] => 68.00
+    [pe_dominante] => E
+    [ativo] => 1
+    [team_id] => 52
+    [position_radio] => LB
+    [wage_monthly] => 
+    [contract_season_id] => 6
+    [contract_clauses] => 
+    [mensalidade_epoca] => 6
+    [mensalidade_valor] => 
+    [mensalidade_metodo_pagamento] => 
+    [mensalidade_observacoes] => 
+    [has_contract] => 0
+    [has_mensalidade] => 0
+)
+
+[2026-06-11 05:09:42] FILES recebidos: Array
+(
+    [photo] => Array
+        (
+            [name] => 1346595_jose_moreira_20250924151351.jpg
+            [full_path] => 1346595_jose_moreira_20250924151351.jpg
+            [type] => image/jpeg
+            [tmp_name] => /home/uploads/phpbB86qP
+            [error] => 0
+            [size] => 43311
+        )
+
+)
+
+[2026-06-11 05:09:42] ✅ Arquivo 'photo' existe em FILES
+[2026-06-11 05:09:42] Nome: 1346595_jose_moreira_20250924151351.jpg
+[2026-06-11 05:09:42] Tipo: image/jpeg
+[2026-06-11 05:09:42] Tamanho: 43311 bytes
+[2026-06-11 05:09:42] Erro: 0
+[2026-06-11 05:09:42] Temp: /home/uploads/phpbB86qP
+[2026-06-11 05:09:42] ✅ Arquivo temporário existe
+[2026-06-11 05:09:42] Upload max size: 20M
+[2026-06-11 05:09:42] Post max size: 30M
+[2026-06-11 05:09:42] Memory limit: 512M
+[2026-06-11 05:09:42] ========== FIM DEBUG ==========
+
+[2026-06-11 05:09:42] 📋 Dados recebidos:
+[2026-06-11 05:09:42] ID: 217
+[2026-06-11 05:09:42] Nome: José Moreira
+[2026-06-11 05:09:42] Posição: LB
+[2026-06-11 05:09:42] Equipa: 52
+[2026-06-11 05:09:42] Foto antiga: /logos/player_1779961437_6a180e5d2f35a.jpg
+[2026-06-11 05:09:42] 🔄 Iniciando upload da foto...
+[2026-06-11 05:09:42] Tentando mover de: /home/uploads/phpbB86qP
+[2026-06-11 05:09:42] Para: /home/vol9_8/infinityfree.com/if0_42155522/htdocs/logos/player_1781168982_6a2a7b566f767.jpg
+[2026-06-11 05:09:42] ✅ Foto guardada com sucesso: /logos/player_1781168982_6a2a7b566f767.jpg
+[2026-06-11 05:09:42] 🔄 Atualizando jogador ID: 217
+[2026-06-11 05:09:42] ✅ Jogador atualizado
+[2026-06-11 05:11:17] ========== INÍCIO DEBUG ==========
+[2026-06-11 05:11:17] Action: save_player
+[2026-06-11 05:11:17] POST ID: 222
+[2026-06-11 05:11:17] POST completo: Array
+(
+    [action] => save_player
+    [id] => 222
+    [position_id] => ST
+    [primeiro_nome] => Francisco
+    [ultimo_nome] => Sousa
+    [data_nascimento] => 2007-09-27
+    [altura_cm] => 181
+    [peso_kg] => 68.00
+    [pe_dominante] => D
+    [ativo] => 1
+    [team_id] => 52
+    [position_radio] => ST
+    [wage_monthly] => 
+    [contract_season_id] => 6
+    [contract_clauses] => 
+    [mensalidade_epoca] => 6
+    [mensalidade_valor] => 
+    [mensalidade_metodo_pagamento] => 
+    [mensalidade_observacoes] => 
+    [has_contract] => 0
+    [has_mensalidade] => 0
+)
+
+[2026-06-11 05:11:17] FILES recebidos: Array
+(
+    [photo] => Array
+        (
+            [name] => 1183176_francisco_sousa_20241007160129.jpg
+            [full_path] => 1183176_francisco_sousa_20241007160129.jpg
+            [type] => image/jpeg
+            [tmp_name] => /home/uploads/phpOO5nTb
+            [error] => 0
+            [size] => 45280
+        )
+
+)
+
+[2026-06-11 05:11:17] ✅ Arquivo 'photo' existe em FILES
+[2026-06-11 05:11:17] Nome: 1183176_francisco_sousa_20241007160129.jpg
+[2026-06-11 05:11:17] Tipo: image/jpeg
+[2026-06-11 05:11:17] Tamanho: 45280 bytes
+[2026-06-11 05:11:17] Erro: 0
+[2026-06-11 05:11:17] Temp: /home/uploads/phpOO5nTb
+[2026-06-11 05:11:17] ✅ Arquivo temporário existe
+[2026-06-11 05:11:17] Upload max size: 20M
+[2026-06-11 05:11:17] Post max size: 30M
+[2026-06-11 05:11:17] Memory limit: 512M
+[2026-06-11 05:11:17] ========== FIM DEBUG ==========
+
+[2026-06-11 05:11:17] 📋 Dados recebidos:
+[2026-06-11 05:11:17] ID: 222
+[2026-06-11 05:11:17] Nome: Francisco Sousa
+[2026-06-11 05:11:17] Posição: ST
+[2026-06-11 05:11:17] Equipa: 52
+[2026-06-11 05:11:17] Foto antiga: /logos/player_1779962138_6a18111acb657.jpg
+[2026-06-11 05:11:17] 🔄 Iniciando upload da foto...
+[2026-06-11 05:11:17] Tentando mover de: /home/uploads/phpOO5nTb
+[2026-06-11 05:11:17] Para: /home/vol9_8/infinityfree.com/if0_42155522/htdocs/logos/player_1781169077_6a2a7bb514c76.jpg
+[2026-06-11 05:11:17] ✅ Foto guardada com sucesso: /logos/player_1781169077_6a2a7bb514c76.jpg
+[2026-06-11 05:11:17] 🔄 Atualizando jogador ID: 222
+[2026-06-11 05:11:17] ✅ Jogador atualizado
+[2026-06-11 05:11:37] ========== INÍCIO DEBUG ==========
+[2026-06-11 05:11:37] Action: save_player
+[2026-06-11 05:11:37] POST ID: 216
+[2026-06-11 05:11:37] POST completo: Array
+(
+    [action] => save_player
+    [id] => 216
+    [position_id] => CB
+    [primeiro_nome] => Simão
+    [ultimo_nome] => Ramalho
+    [data_nascimento] => 2007-08-03
+    [altura_cm] => 184
+    [peso_kg] => 70.00
+    [pe_dominante] => D
+    [ativo] => 1
+    [team_id] => 52
+    [position_radio] => CB
+    [wage_monthly] => 
+    [contract_season_id] => 6
+    [contract_clauses] => 
+    [mensalidade_epoca] => 6
+    [mensalidade_valor] => 
+    [mensalidade_metodo_pagamento] => 
+    [mensalidade_observacoes] => 
+    [has_contract] => 0
+    [has_mensalidade] => 0
+)
+
+[2026-06-11 05:11:37] FILES recebidos: Array
+(
+    [photo] => Array
+        (
+            [name] => 1346619_simao_ramalho_20250924153505.jpg
+            [full_path] => 1346619_simao_ramalho_20250924153505.jpg
+            [type] => image/jpeg
+            [tmp_name] => /home/uploads/phpxEaFgV
+            [error] => 0
+            [size] => 44840
+        )
+
+)
+
+[2026-06-11 05:11:37] ✅ Arquivo 'photo' existe em FILES
+[2026-06-11 05:11:37] Nome: 1346619_simao_ramalho_20250924153505.jpg
+[2026-06-11 05:11:37] Tipo: image/jpeg
+[2026-06-11 05:11:37] Tamanho: 44840 bytes
+[2026-06-11 05:11:37] Erro: 0
+[2026-06-11 05:11:37] Temp: /home/uploads/phpxEaFgV
+[2026-06-11 05:11:37] ✅ Arquivo temporário existe
+[2026-06-11 05:11:37] Upload max size: 20M
+[2026-06-11 05:11:37] Post max size: 30M
+[2026-06-11 05:11:37] Memory limit: 512M
+[2026-06-11 05:11:37] ========== FIM DEBUG ==========
+
+[2026-06-11 05:11:37] 📋 Dados recebidos:
+[2026-06-11 05:11:37] ID: 216
+[2026-06-11 05:11:37] Nome: Simão Ramalho
+[2026-06-11 05:11:37] Posição: CB
+[2026-06-11 05:11:37] Equipa: 52
+[2026-06-11 05:11:37] Foto antiga: /logos/player_1779961379_6a180e2397cb6.jpg
+[2026-06-11 05:11:37] 🔄 Iniciando upload da foto...
+[2026-06-11 05:11:37] Tentando mover de: /home/uploads/phpxEaFgV
+[2026-06-11 05:11:37] Para: /home/vol9_8/infinityfree.com/if0_42155522/htdocs/logos/player_1781169097_6a2a7bc94c8b1.jpg
+[2026-06-11 05:11:37] ✅ Foto guardada com sucesso: /logos/player_1781169097_6a2a7bc94c8b1.jpg
+[2026-06-11 05:11:37] 🔄 Atualizando jogador ID: 216
+[2026-06-11 05:11:37] ✅ Jogador atualizado
+[2026-06-11 05:11:59] ========== INÍCIO DEBUG ==========
+[2026-06-11 05:11:59] Action: save_player
+[2026-06-11 05:11:59] POST ID: 220
+[2026-06-11 05:11:59] POST completo: Array
+(
+    [action] => save_player
+    [id] => 220
+    [position_id] => CM
+    [primeiro_nome] => Rodrigo
+    [ultimo_nome] => Pacheco
+    [data_nascimento] => 2008-07-30
+    [altura_cm] => 170
+    [peso_kg] => 65.00
+    [pe_dominante] => D
+    [ativo] => 1
+    [team_id] => 52
+    [position_radio] => CM
+    [wage_monthly] => 
+    [contract_season_id] => 6
+    [contract_clauses] => 
+    [mensalidade_epoca] => 6
+    [mensalidade_valor] => 
+    [mensalidade_metodo_pagamento] => 
+    [mensalidade_observacoes] => 
+    [has_contract] => 0
+    [has_mensalidade] => 0
+)
+
+[2026-06-11 05:11:59] FILES recebidos: Array
+(
+    [photo] => Array
+        (
+            [name] => 1346589_rodrigo_pacheco_20250924151225.jpg
+            [full_path] => 1346589_rodrigo_pacheco_20250924151225.jpg
+            [type] => image/jpeg
+            [tmp_name] => /home/uploads/phpXqOarm
+            [error] => 0
+            [size] => 7628
+        )
+
+)
+
+[2026-06-11 05:11:59] ✅ Arquivo 'photo' existe em FILES
+[2026-06-11 05:11:59] Nome: 1346589_rodrigo_pacheco_20250924151225.jpg
+[2026-06-11 05:11:59] Tipo: image/jpeg
+[2026-06-11 05:11:59] Tamanho: 7628 bytes
+[2026-06-11 05:11:59] Erro: 0
+[2026-06-11 05:11:59] Temp: /home/uploads/phpXqOarm
+[2026-06-11 05:11:59] ✅ Arquivo temporário existe
+[2026-06-11 05:11:59] Upload max size: 20M
+[2026-06-11 05:11:59] Post max size: 30M
+[2026-06-11 05:11:59] Memory limit: 512M
+[2026-06-11 05:11:59] ========== FIM DEBUG ==========
+
+[2026-06-11 05:11:59] 📋 Dados recebidos:
+[2026-06-11 05:11:59] ID: 220
+[2026-06-11 05:11:59] Nome: Rodrigo Pacheco
+[2026-06-11 05:11:59] Posição: CM
+[2026-06-11 05:11:59] Equipa: 52
+[2026-06-11 05:11:59] Foto antiga: /logos/player_1779961902_6a18102e23a4e.jpg
+[2026-06-11 05:11:59] 🔄 Iniciando upload da foto...
+[2026-06-11 05:11:59] Tentando mover de: /home/uploads/phpXqOarm
+[2026-06-11 05:11:59] Para: /home/vol9_8/infinityfree.com/if0_42155522/htdocs/logos/player_1781169119_6a2a7bdfbaa6a.jpg
+[2026-06-11 05:11:59] ✅ Foto guardada com sucesso: /logos/player_1781169119_6a2a7bdfbaa6a.jpg
+[2026-06-11 05:11:59] 🔄 Atualizando jogador ID: 220
+[2026-06-11 05:11:59] ✅ Jogador atualizado
+[2026-06-11 05:12:14] ========== INÍCIO DEBUG ==========
+[2026-06-11 05:12:14] Action: save_player
+[2026-06-11 05:12:14] POST ID: 219
+[2026-06-11 05:12:14] POST completo: Array
+(
+    [action] => save_player
+    [id] => 219
+    [position_id] => CAM
+    [primeiro_nome] => Pedro
+    [ultimo_nome] => Pacheco
+    [data_nascimento] => 2007-11-02
+    [altura_cm] => 180
+    [peso_kg] => 65.00
+    [pe_dominante] => D
+    [ativo] => 1
+    [team_id] => 52
+    [position_radio] => CAM
+    [wage_monthly] => 
+    [contract_season_id] => 6
+    [contract_clauses] => 
+    [mensalidade_epoca] => 6
+    [mensalidade_valor] => 
+    [mensalidade_metodo_pagamento] => 
+    [mensalidade_observacoes] => 
+    [has_contract] => 0
+    [has_mensalidade] => 0
+)
+
+[2026-06-11 05:12:14] FILES recebidos: Array
+(
+    [photo] => Array
+        (
+            [name] => 1183174_pedro_pacheco_20241007160128.jpg
+            [full_path] => 1183174_pedro_pacheco_20241007160128.jpg
+            [type] => image/jpeg
+            [tmp_name] => /home/uploads/phpAUlvtr
+            [error] => 0
+            [size] => 7484
+        )
+
+)
+
+[2026-06-11 05:12:14] ✅ Arquivo 'photo' existe em FILES
+[2026-06-11 05:12:14] Nome: 1183174_pedro_pacheco_20241007160128.jpg
+[2026-06-11 05:12:14] Tipo: image/jpeg
+[2026-06-11 05:12:14] Tamanho: 7484 bytes
+[2026-06-11 05:12:14] Erro: 0
+[2026-06-11 05:12:14] Temp: /home/uploads/phpAUlvtr
+[2026-06-11 05:12:14] ✅ Arquivo temporário existe
+[2026-06-11 05:12:14] Upload max size: 20M
+[2026-06-11 05:12:14] Post max size: 30M
+[2026-06-11 05:12:14] Memory limit: 512M
+[2026-06-11 05:12:14] ========== FIM DEBUG ==========
+
+[2026-06-11 05:12:14] 📋 Dados recebidos:
+[2026-06-11 05:12:14] ID: 219
+[2026-06-11 05:12:14] Nome: Pedro Pacheco
+[2026-06-11 05:12:14] Posição: CAM
+[2026-06-11 05:12:14] Equipa: 52
+[2026-06-11 05:12:14] Foto antiga: /logos/player_1779961841_6a180ff12f0a2.jpg
+[2026-06-11 05:12:14] 🔄 Iniciando upload da foto...
+[2026-06-11 05:12:14] Tentando mover de: /home/uploads/phpAUlvtr
+[2026-06-11 05:12:14] Para: /home/vol9_8/infinityfree.com/if0_42155522/htdocs/logos/player_1781169134_6a2a7bee261a7.jpg
+[2026-06-11 05:12:14] ✅ Foto guardada com sucesso: /logos/player_1781169134_6a2a7bee261a7.jpg
+[2026-06-11 05:12:14] 🔄 Atualizando jogador ID: 219
+[2026-06-11 05:12:14] ✅ Jogador atualizado
+[2026-06-11 05:15:40] ========== INÍCIO DEBUG ==========
+[2026-06-11 05:15:40] Action: save_player
+[2026-06-11 05:15:40] POST ID: 210
+[2026-06-11 05:15:40] POST completo: Array
+(
+    [action] => save_player
+    [id] => 210
+    [position_id] => LW
+    [primeiro_nome] => Diogo
+    [ultimo_nome] => Almeida
+    [data_nascimento] => 1998-10-25
+    [altura_cm] => 0
+    [peso_kg] => 0.00
+    [pe_dominante] => D
+    [ativo] => 1
+    [team_id] => 51
+    [position_radio] => LW
+    [wage_monthly] => 
+    [contract_season_id] => 6
+    [contract_clauses] => 
+    [mensalidade_epoca] => 6
+    [mensalidade_valor] => 
+    [mensalidade_metodo_pagamento] => 
+    [mensalidade_observacoes] => 
+    [has_contract] => 0
+    [has_mensalidade] => 0
+)
+
+[2026-06-11 05:15:40] FILES recebidos: Array
+(
+    [photo] => Array
+        (
+            [name] => 1323038_diogo_almeida_20250811115708.jpg
+            [full_path] => 1323038_diogo_almeida_20250811115708.jpg
+            [type] => image/jpeg
+            [tmp_name] => /home/uploads/php7i8DOO
+            [error] => 0
+            [size] => 82497
+        )
+
+)
+
+[2026-06-11 05:15:40] ✅ Arquivo 'photo' existe em FILES
+[2026-06-11 05:15:40] Nome: 1323038_diogo_almeida_20250811115708.jpg
+[2026-06-11 05:15:40] Tipo: image/jpeg
+[2026-06-11 05:15:40] Tamanho: 82497 bytes
+[2026-06-11 05:15:40] Erro: 0
+[2026-06-11 05:15:40] Temp: /home/uploads/php7i8DOO
+[2026-06-11 05:15:40] ✅ Arquivo temporário existe
+[2026-06-11 05:15:40] Upload max size: 20M
+[2026-06-11 05:15:40] Post max size: 30M
+[2026-06-11 05:15:40] Memory limit: 512M
+[2026-06-11 05:15:40] ========== FIM DEBUG ==========
+
+[2026-06-11 05:15:40] 📋 Dados recebidos:
+[2026-06-11 05:15:40] ID: 210
+[2026-06-11 05:15:40] Nome: Diogo Almeida
+[2026-06-11 05:15:40] Posição: LW
+[2026-06-11 05:15:40] Equipa: 51
+[2026-06-11 05:15:40] Foto antiga: /logos/player_1781168725_6a2a7a553db71.jpg
+[2026-06-11 05:15:40] 🔄 Iniciando upload da foto...
+[2026-06-11 05:15:40] Tentando mover de: /home/uploads/php7i8DOO
+[2026-06-11 05:15:40] Para: /home/vol9_8/infinityfree.com/if0_42155522/htdocs/logos/player_1781169340_6a2a7cbc9ec0e.jpg
+[2026-06-11 05:15:40] ✅ Foto guardada com sucesso: /logos/player_1781169340_6a2a7cbc9ec0e.jpg
+[2026-06-11 05:15:40] 🗑️ Foto antiga apagada: /home/vol9_8/infinityfree.com/if0_42155522/htdocs/logos/player_1781168725_6a2a7a553db71.jpg
+[2026-06-11 05:15:40] 🔄 Atualizando jogador ID: 210
+[2026-06-11 05:15:40] ✅ Jogador atualizado
+[2026-06-11 05:15:50] ========== INÍCIO DEBUG ==========
+[2026-06-11 05:15:50] Action: save_player
+[2026-06-11 05:15:50] POST ID: 211
+[2026-06-11 05:15:50] POST completo: Array
+(
+    [action] => save_player
+    [id] => 211
+    [position_id] => ST
+    [primeiro_nome] => Dinis
+    [ultimo_nome] => Djadjó
+    [data_nascimento] => 2002-07-12
+    [altura_cm] => 179
+    [peso_kg] => 72.00
+    [pe_dominante] => D
+    [ativo] => 1
+    [team_id] => 51
+    [position_radio] => ST
+    [wage_monthly] => 
+    [contract_season_id] => 6
+    [contract_clauses] => 
+    [mensalidade_epoca] => 6
+    [mensalidade_valor] => 
+    [mensalidade_metodo_pagamento] => 
+    [mensalidade_observacoes] => 
+    [has_contract] => 0
+    [has_mensalidade] => 0
+)
+
+[2026-06-11 05:15:50] FILES recebidos: Array
+(
+    [photo] => Array
+        (
+            [name] => 1323184_dinis_djadjo_20250811123333.jpg
+            [full_path] => 1323184_dinis_djadjo_20250811123333.jpg
+            [type] => image/jpeg
+            [tmp_name] => /home/uploads/phppGQUHd
+            [error] => 0
+            [size] => 8187
+        )
+
+)
+
+[2026-06-11 05:15:50] ✅ Arquivo 'photo' existe em FILES
+[2026-06-11 05:15:50] Nome: 1323184_dinis_djadjo_20250811123333.jpg
+[2026-06-11 05:15:50] Tipo: image/jpeg
+[2026-06-11 05:15:50] Tamanho: 8187 bytes
+[2026-06-11 05:15:50] Erro: 0
+[2026-06-11 05:15:50] Temp: /home/uploads/phppGQUHd
+[2026-06-11 05:15:50] ✅ Arquivo temporário existe
+[2026-06-11 05:15:50] Upload max size: 20M
+[2026-06-11 05:15:50] Post max size: 30M
+[2026-06-11 05:15:50] Memory limit: 512M
+[2026-06-11 05:15:50] ========== FIM DEBUG ==========
+
+[2026-06-11 05:15:50] 📋 Dados recebidos:
+[2026-06-11 05:15:50] ID: 211
+[2026-06-11 05:15:50] Nome: Dinis Djadjó
+[2026-06-11 05:15:50] Posição: ST
+[2026-06-11 05:15:50] Equipa: 51
+[2026-06-11 05:15:50] Foto antiga: /logos/player_1779960405_6a180a5537e84.jpg
+[2026-06-11 05:15:50] 🔄 Iniciando upload da foto...
+[2026-06-11 05:15:50] Tentando mover de: /home/uploads/phppGQUHd
+[2026-06-11 05:15:50] Para: /home/vol9_8/infinityfree.com/if0_42155522/htdocs/logos/player_1781169350_6a2a7cc6a088b.jpg
+[2026-06-11 05:15:50] ✅ Foto guardada com sucesso: /logos/player_1781169350_6a2a7cc6a088b.jpg
+[2026-06-11 05:15:50] 🔄 Atualizando jogador ID: 211
+[2026-06-11 05:15:50] ✅ Jogador atualizado
+[2026-06-11 05:16:18] ========== INÍCIO DEBUG ==========
+[2026-06-11 05:16:18] Action: save_player
+[2026-06-11 05:16:18] POST ID: 204
+[2026-06-11 05:16:18] POST completo: Array
+(
+    [action] => save_player
+    [id] => 204
+    [position_id] => CB
+    [primeiro_nome] => Rui
+    [ultimo_nome] => Filipe
+    [data_nascimento] => 1994-06-07
+    [altura_cm] => 189
+    [peso_kg] => 81.00
+    [pe_dominante] => D
+    [ativo] => 1
+    [team_id] => 51
+    [position_radio] => CB
+    [wage_monthly] => 
+    [contract_season_id] => 6
+    [contract_clauses] => 
+    [mensalidade_epoca] => 6
+    [mensalidade_valor] => 
+    [mensalidade_metodo_pagamento] => 
+    [mensalidade_observacoes] => 
+    [has_contract] => 0
+    [has_mensalidade] => 0
+)
+
+[2026-06-11 05:16:18] FILES recebidos: Array
+(
+    [photo] => Array
+        (
+            [name] => 213545_rui_filipe_20240327173240.jpg
+            [full_path] => 213545_rui_filipe_20240327173240.jpg
+            [type] => image/jpeg
+            [tmp_name] => /home/uploads/phpgtRvUv
+            [error] => 0
+            [size] => 7602
+        )
+
+)
+
+[2026-06-11 05:16:18] ✅ Arquivo 'photo' existe em FILES
+[2026-06-11 05:16:18] Nome: 213545_rui_filipe_20240327173240.jpg
+[2026-06-11 05:16:18] Tipo: image/jpeg
+[2026-06-11 05:16:18] Tamanho: 7602 bytes
+[2026-06-11 05:16:18] Erro: 0
+[2026-06-11 05:16:18] Temp: /home/uploads/phpgtRvUv
+[2026-06-11 05:16:18] ✅ Arquivo temporário existe
+[2026-06-11 05:16:18] Upload max size: 20M
+[2026-06-11 05:16:18] Post max size: 30M
+[2026-06-11 05:16:18] Memory limit: 512M
+[2026-06-11 05:16:18] ========== FIM DEBUG ==========
+
+[2026-06-11 05:16:18] 📋 Dados recebidos:
+[2026-06-11 05:16:18] ID: 204
+[2026-06-11 05:16:18] Nome: Rui Filipe
+[2026-06-11 05:16:18] Posição: CB
+[2026-06-11 05:16:18] Equipa: 51
+[2026-06-11 05:16:18] Foto antiga: /logos/player_1779959649_6a18076147ac2.jpg
+[2026-06-11 05:16:18] 🔄 Iniciando upload da foto...
+[2026-06-11 05:16:18] Tentando mover de: /home/uploads/phpgtRvUv
+[2026-06-11 05:16:18] Para: /home/vol9_8/infinityfree.com/if0_42155522/htdocs/logos/player_1781169378_6a2a7ce2f2993.jpg
+[2026-06-11 05:16:18] ✅ Foto guardada com sucesso: /logos/player_1781169378_6a2a7ce2f2993.jpg
+[2026-06-11 05:16:18] 🔄 Atualizando jogador ID: 204
+[2026-06-11 05:16:18] ✅ Jogador atualizado
+[2026-06-11 05:16:35] ========== INÍCIO DEBUG ==========
+[2026-06-11 05:16:35] Action: save_player
+[2026-06-11 05:16:35] POST ID: 205
+[2026-06-11 05:16:35] POST completo: Array
+(
+    [action] => save_player
+    [id] => 205
+    [position_id] => CB
+    [primeiro_nome] => Sandro
+    [ultimo_nome] => Fonseca
+    [data_nascimento] => 1997-05-03
+    [altura_cm] => 186
+    [peso_kg] => 76.00
+    [pe_dominante] => D
+    [ativo] => 1
+    [team_id] => 51
+    [position_radio] => CB
+    [wage_monthly] => 
+    [contract_season_id] => 6
+    [contract_clauses] => 
+    [mensalidade_epoca] => 6
+    [mensalidade_valor] => 
+    [mensalidade_metodo_pagamento] => 
+    [mensalidade_observacoes] => 
+    [has_contract] => 0
+    [has_mensalidade] => 0
+)
+
+[2026-06-11 05:16:35] FILES recebidos: Array
+(
+    [photo] => Array
+        (
+            [name] => 1323016_sandro_fonseca_20250811115411.jpg
+            [full_path] => 1323016_sandro_fonseca_20250811115411.jpg
+            [type] => image/jpeg
+            [tmp_name] => /home/uploads/phpMnPHwh
+            [error] => 0
+            [size] => 79663
+        )
+
+)
+
+[2026-06-11 05:16:35] ✅ Arquivo 'photo' existe em FILES
+[2026-06-11 05:16:35] Nome: 1323016_sandro_fonseca_20250811115411.jpg
+[2026-06-11 05:16:35] Tipo: image/jpeg
+[2026-06-11 05:16:35] Tamanho: 79663 bytes
+[2026-06-11 05:16:35] Erro: 0
+[2026-06-11 05:16:35] Temp: /home/uploads/phpMnPHwh
+[2026-06-11 05:16:35] ✅ Arquivo temporário existe
+[2026-06-11 05:16:35] Upload max size: 20M
+[2026-06-11 05:16:35] Post max size: 30M
+[2026-06-11 05:16:35] Memory limit: 512M
+[2026-06-11 05:16:35] ========== FIM DEBUG ==========
+
+[2026-06-11 05:16:35] 📋 Dados recebidos:
+[2026-06-11 05:16:35] ID: 205
+[2026-06-11 05:16:35] Nome: Sandro Fonseca
+[2026-06-11 05:16:35] Posição: CB
+[2026-06-11 05:16:35] Equipa: 51
+[2026-06-11 05:16:35] Foto antiga: /logos/player_1779959735_6a1807b7d8d05.jpg
+[2026-06-11 05:16:35] 🔄 Iniciando upload da foto...
+[2026-06-11 05:16:35] Tentando mover de: /home/uploads/phpMnPHwh
+[2026-06-11 05:16:35] Para: /home/vol9_8/infinityfree.com/if0_42155522/htdocs/logos/player_1781169395_6a2a7cf39c1b0.jpg
+[2026-06-11 05:16:35] ✅ Foto guardada com sucesso: /logos/player_1781169395_6a2a7cf39c1b0.jpg
+[2026-06-11 05:16:35] 🔄 Atualizando jogador ID: 205
+[2026-06-11 05:16:35] ✅ Jogador atualizado
+[2026-06-11 05:16:59] ========== INÍCIO DEBUG ==========
+[2026-06-11 05:16:59] Action: save_player
+[2026-06-11 05:16:59] POST ID: 209
+[2026-06-11 05:16:59] POST completo: Array
+(
+    [action] => save_player
+    [id] => 209
+    [position_id] => CM
+    [primeiro_nome] => Chico
+    [ultimo_nome] => Leal
+    [data_nascimento] => 2003-01-28
+    [altura_cm] => 177
+    [peso_kg] => 70.00
+    [pe_dominante] => E
+    [ativo] => 1
+    [team_id] => 51
+    [position_radio] => CM
+    [wage_monthly] => 
+    [contract_season_id] => 6
+    [contract_clauses] => 
+    [mensalidade_epoca] => 6
+    [mensalidade_valor] => 
+    [mensalidade_metodo_pagamento] => 
+    [mensalidade_observacoes] => 
+    [has_contract] => 0
+    [has_mensalidade] => 0
+)
+
+[2026-06-11 05:16:59] FILES recebidos: Array
+(
+    [photo] => Array
+        (
+            [name] => 1323072_chico_leal_20250811120757.jpg
+            [full_path] => 1323072_chico_leal_20250811120757.jpg
+            [type] => image/jpeg
+            [tmp_name] => /home/uploads/phpOfGQNx
+            [error] => 0
+            [size] => 91703
+        )
+
+)
+
+[2026-06-11 05:16:59] ✅ Arquivo 'photo' existe em FILES
+[2026-06-11 05:16:59] Nome: 1323072_chico_leal_20250811120757.jpg
+[2026-06-11 05:16:59] Tipo: image/jpeg
+[2026-06-11 05:16:59] Tamanho: 91703 bytes
+[2026-06-11 05:16:59] Erro: 0
+[2026-06-11 05:16:59] Temp: /home/uploads/phpOfGQNx
+[2026-06-11 05:16:59] ✅ Arquivo temporário existe
+[2026-06-11 05:16:59] Upload max size: 20M
+[2026-06-11 05:16:59] Post max size: 30M
+[2026-06-11 05:16:59] Memory limit: 512M
+[2026-06-11 05:16:59] ========== FIM DEBUG ==========
+
+[2026-06-11 05:16:59] 📋 Dados recebidos:
+[2026-06-11 05:16:59] ID: 209
+[2026-06-11 05:16:59] Nome: Chico Leal
+[2026-06-11 05:16:59] Posição: CM
+[2026-06-11 05:16:59] Equipa: 51
+[2026-06-11 05:16:59] Foto antiga: /logos/player_1779960152_6a18095849f14.jpg
+[2026-06-11 05:16:59] 🔄 Iniciando upload da foto...
+[2026-06-11 05:16:59] Tentando mover de: /home/uploads/phpOfGQNx
+[2026-06-11 05:16:59] Para: /home/vol9_8/infinityfree.com/if0_42155522/htdocs/logos/player_1781169419_6a2a7d0b4c528.jpg
+[2026-06-11 05:16:59] ✅ Foto guardada com sucesso: /logos/player_1781169419_6a2a7d0b4c528.jpg
+[2026-06-11 05:16:59] 🔄 Atualizando jogador ID: 209
+[2026-06-11 05:16:59] ✅ Jogador atualizado
+[2026-06-11 05:17:18] ========== INÍCIO DEBUG ==========
+[2026-06-11 05:17:18] Action: save_player
+[2026-06-11 05:17:18] POST ID: 212
+[2026-06-11 05:17:18] POST completo: Array
+(
+    [action] => save_player
+    [id] => 212
+    [position_id] => RW
+    [primeiro_nome] => Diogo
+    [ultimo_nome] => Martins
+    [data_nascimento] => 2000-12-23
+    [altura_cm] => 175
+    [peso_kg] => 69.00
+    [pe_dominante] => D
+    [ativo] => 1
+    [team_id] => 51
+    [position_radio] => RW
+    [wage_monthly] => 
+    [contract_season_id] => 6
+    [contract_clauses] => 
+    [mensalidade_epoca] => 6
+    [mensalidade_valor] => 
+    [mensalidade_metodo_pagamento] => 
+    [mensalidade_observacoes] => 
+    [has_contract] => 0
+    [has_mensalidade] => 0
+)
+
+[2026-06-11 05:17:18] FILES recebidos: Array
+(
+    [photo] => Array
+        (
+            [name] => 1323130_rashid_20250811121523.jpg
+            [full_path] => 1323130_rashid_20250811121523.jpg
+            [type] => image/jpeg
+            [tmp_name] => /home/uploads/phpnsB7vE
+            [error] => 0
+            [size] => 29842
+        )
+
+)
+
+[2026-06-11 05:17:18] ✅ Arquivo 'photo' existe em FILES
+[2026-06-11 05:17:18] Nome: 1323130_rashid_20250811121523.jpg
+[2026-06-11 05:17:18] Tipo: image/jpeg
+[2026-06-11 05:17:18] Tamanho: 29842 bytes
+[2026-06-11 05:17:18] Erro: 0
+[2026-06-11 05:17:18] Temp: /home/uploads/phpnsB7vE
+[2026-06-11 05:17:18] ✅ Arquivo temporário existe
+[2026-06-11 05:17:18] Upload max size: 20M
+[2026-06-11 05:17:18] Post max size: 30M
+[2026-06-11 05:17:18] Memory limit: 512M
+[2026-06-11 05:17:18] ========== FIM DEBUG ==========
+
+[2026-06-11 05:17:18] 📋 Dados recebidos:
+[2026-06-11 05:17:18] ID: 212
+[2026-06-11 05:17:18] Nome: Diogo Martins
+[2026-06-11 05:17:18] Posição: RW
+[2026-06-11 05:17:18] Equipa: 51
+[2026-06-11 05:17:18] Foto antiga: /logos/player_1779960543_6a180adf170bd.jpg
+[2026-06-11 05:17:18] 🔄 Iniciando upload da foto...
+[2026-06-11 05:17:18] Tentando mover de: /home/uploads/phpnsB7vE
+[2026-06-11 05:17:18] Para: /home/vol9_8/infinityfree.com/if0_42155522/htdocs/logos/player_1781169438_6a2a7d1e9fe87.jpg
+[2026-06-11 05:17:18] ✅ Foto guardada com sucesso: /logos/player_1781169438_6a2a7d1e9fe87.jpg
+[2026-06-11 05:17:18] 🔄 Atualizando jogador ID: 212
+[2026-06-11 05:17:18] ✅ Jogador atualizado
+[2026-06-11 05:18:43] ========== INÍCIO DEBUG ==========
+[2026-06-11 05:18:43] Action: save_player
+[2026-06-11 05:18:43] POST ID: 206
+[2026-06-11 05:18:43] POST completo: Array
+(
+    [action] => save_player
+    [id] => 206
+    [position_id] => LB
+    [primeiro_nome] => Miguel
+    [ultimo_nome] => Silva
+    [data_nascimento] => 1996-04-24
+    [altura_cm] => 184
+    [peso_kg] => 80.00
+    [pe_dominante] => D
+    [ativo] => 1
+    [team_id] => 51
+    [position_radio] => LB
+    [wage_monthly] => 
+    [contract_season_id] => 6
+    [contract_clauses] => 
+    [mensalidade_epoca] => 6
+    [mensalidade_valor] => 
+    [mensalidade_metodo_pagamento] => 
+    [mensalidade_observacoes] => 
+    [has_contract] => 0
+    [has_mensalidade] => 0
+)
+
+[2026-06-11 05:18:43] FILES recebidos: Array
+(
+    [photo] => Array
+        (
+            [name] => 1323049_miguel_silva_20250811115916.jpg
+            [full_path] => 1323049_miguel_silva_20250811115916.jpg
+            [type] => image/jpeg
+            [tmp_name] => /home/uploads/phpLlISz4
+            [error] => 0
+            [size] => 81480
+        )
+
+)
+
+[2026-06-11 05:18:43] ✅ Arquivo 'photo' existe em FILES
+[2026-06-11 05:18:43] Nome: 1323049_miguel_silva_20250811115916.jpg
+[2026-06-11 05:18:43] Tipo: image/jpeg
+[2026-06-11 05:18:43] Tamanho: 81480 bytes
+[2026-06-11 05:18:43] Erro: 0
+[2026-06-11 05:18:43] Temp: /home/uploads/phpLlISz4
+[2026-06-11 05:18:43] ✅ Arquivo temporário existe
+[2026-06-11 05:18:43] Upload max size: 20M
+[2026-06-11 05:18:43] Post max size: 30M
+[2026-06-11 05:18:43] Memory limit: 512M
+[2026-06-11 05:18:43] ========== FIM DEBUG ==========
+
+[2026-06-11 05:18:43] 📋 Dados recebidos:
+[2026-06-11 05:18:43] ID: 206
+[2026-06-11 05:18:43] Nome: Miguel Silva
+[2026-06-11 05:18:43] Posição: LB
+[2026-06-11 05:18:43] Equipa: 51
+[2026-06-11 05:18:43] Foto antiga: /logos/player_1779959801_6a1807f95d0e6.jpg
+[2026-06-11 05:18:43] 🔄 Iniciando upload da foto...
+[2026-06-11 05:18:43] Tentando mover de: /home/uploads/phpLlISz4
+[2026-06-11 05:18:43] Para: /home/vol9_8/infinityfree.com/if0_42155522/htdocs/logos/player_1781169523_6a2a7d73e031a.jpg
+[2026-06-11 05:18:43] ✅ Foto guardada com sucesso: /logos/player_1781169523_6a2a7d73e031a.jpg
+[2026-06-11 05:18:43] 🔄 Atualizando jogador ID: 206
+[2026-06-11 05:18:43] ✅ Jogador atualizado
+[2026-06-11 05:19:36] ========== INÍCIO DEBUG ==========
+[2026-06-11 05:19:36] Action: save_player
+[2026-06-11 05:19:36] POST ID: 202
+[2026-06-11 05:19:36] POST completo: Array
+(
+    [action] => save_player
+    [id] => 202
+    [position_id] => GK
+    [primeiro_nome] => Pedro
+    [ultimo_nome] => Soares
+    [data_nascimento] => 1987-11-03
+    [altura_cm] => 184
+    [peso_kg] => 77.00
+    [pe_dominante] => E
+    [ativo] => 1
+    [team_id] => 51
+    [position_radio] => GK
+    [wage_monthly] => 
+    [contract_season_id] => 6
+    [contract_clauses] => 
+    [mensalidade_epoca] => 6
+    [mensalidade_valor] => 
+    [mensalidade_metodo_pagamento] => 
+    [mensalidade_observacoes] => 
+    [has_contract] => 0
+    [has_mensalidade] => 0
+)
+
+[2026-06-11 05:19:36] FILES recebidos: Array
+(
+    [photo] => Array
+        (
+            [name] => 1321280_pedro_soares_20250806133643.jpg
+            [full_path] => 1321280_pedro_soares_20250806133643.jpg
+            [type] => image/jpeg
+            [tmp_name] => /home/uploads/phpZ94Y9D
+            [error] => 0
+            [size] => 8420
+        )
+
+)
+
+[2026-06-11 05:19:36] ✅ Arquivo 'photo' existe em FILES
+[2026-06-11 05:19:36] Nome: 1321280_pedro_soares_20250806133643.jpg
+[2026-06-11 05:19:36] Tipo: image/jpeg
+[2026-06-11 05:19:36] Tamanho: 8420 bytes
+[2026-06-11 05:19:36] Erro: 0
+[2026-06-11 05:19:36] Temp: /home/uploads/phpZ94Y9D
+[2026-06-11 05:19:36] ✅ Arquivo temporário existe
+[2026-06-11 05:19:36] Upload max size: 20M
+[2026-06-11 05:19:36] Post max size: 30M
+[2026-06-11 05:19:36] Memory limit: 512M
+[2026-06-11 05:19:36] ========== FIM DEBUG ==========
+
+[2026-06-11 05:19:36] 📋 Dados recebidos:
+[2026-06-11 05:19:36] ID: 202
+[2026-06-11 05:19:36] Nome: Pedro Soares
+[2026-06-11 05:19:36] Posição: GK
+[2026-06-11 05:19:36] Equipa: 51
+[2026-06-11 05:19:36] Foto antiga: /logos/player_1779959187_6a18059357b90.jpg
+[2026-06-11 05:19:36] 🔄 Iniciando upload da foto...
+[2026-06-11 05:19:36] Tentando mover de: /home/uploads/phpZ94Y9D
+[2026-06-11 05:19:36] Para: /home/vol9_8/infinityfree.com/if0_42155522/htdocs/logos/player_1781169576_6a2a7da8030af.jpg
+[2026-06-11 05:19:36] ✅ Foto guardada com sucesso: /logos/player_1781169576_6a2a7da8030af.jpg
+[2026-06-11 05:19:36] 🔄 Atualizando jogador ID: 202
+[2026-06-11 05:19:36] ✅ Jogador atualizado
+[2026-06-11 05:21:02] ========== INÍCIO DEBUG ==========
+[2026-06-11 05:21:02] Action: save_player
+[2026-06-11 05:21:02] POST ID: 208
+[2026-06-11 05:21:02] POST completo: Array
+(
+    [action] => save_player
+    [id] => 208
+    [position_id] => CM
+    [primeiro_nome] => Chico
+    [ultimo_nome] => Sousa
+    [data_nascimento] => 1997-03-03
+    [altura_cm] => 175
+    [peso_kg] => 69.00
+    [pe_dominante] => D
+    [ativo] => 1
+    [team_id] => 51
+    [position_radio] => CM
+    [wage_monthly] => 
+    [contract_season_id] => 6
+    [contract_clauses] => 
+    [mensalidade_epoca] => 6
+    [mensalidade_valor] => 
+    [mensalidade_metodo_pagamento] => 
+    [mensalidade_observacoes] => 
+    [has_contract] => 0
+    [has_mensalidade] => 0
+)
+
+[2026-06-11 05:21:02] FILES recebidos: Array
+(
+    [photo] => Array
+        (
+            [name] => 1323043_chico_sousa_20250811115913.jpg
+            [full_path] => 1323043_chico_sousa_20250811115913.jpg
+            [type] => image/jpeg
+            [tmp_name] => /home/uploads/phpkjr7Gx
+            [error] => 0
+            [size] => 77266
+        )
+
+)
+
+[2026-06-11 05:21:02] ✅ Arquivo 'photo' existe em FILES
+[2026-06-11 05:21:02] Nome: 1323043_chico_sousa_20250811115913.jpg
+[2026-06-11 05:21:02] Tipo: image/jpeg
+[2026-06-11 05:21:02] Tamanho: 77266 bytes
+[2026-06-11 05:21:02] Erro: 0
+[2026-06-11 05:21:02] Temp: /home/uploads/phpkjr7Gx
+[2026-06-11 05:21:02] ✅ Arquivo temporário existe
+[2026-06-11 05:21:02] Upload max size: 20M
+[2026-06-11 05:21:02] Post max size: 30M
+[2026-06-11 05:21:02] Memory limit: 512M
+[2026-06-11 05:21:02] ========== FIM DEBUG ==========
+
+[2026-06-11 05:21:02] 📋 Dados recebidos:
+[2026-06-11 05:21:02] ID: 208
+[2026-06-11 05:21:02] Nome: Chico Sousa
+[2026-06-11 05:21:02] Posição: CM
+[2026-06-11 05:21:02] Equipa: 51
+[2026-06-11 05:21:02] Foto antiga: /logos/player_1779960019_6a1808d3113f7.jpg
+[2026-06-11 05:21:02] 🔄 Iniciando upload da foto...
+[2026-06-11 05:21:02] Tentando mover de: /home/uploads/phpkjr7Gx
+[2026-06-11 05:21:02] Para: /home/vol9_8/infinityfree.com/if0_42155522/htdocs/logos/player_1781169662_6a2a7dfec5852.jpg
+[2026-06-11 05:21:02] ✅ Foto guardada com sucesso: /logos/player_1781169662_6a2a7dfec5852.jpg
+[2026-06-11 05:21:02] 🔄 Atualizando jogador ID: 208
+[2026-06-11 05:21:02] ✅ Jogador atualizado
+[2026-06-11 05:21:27] ========== INÍCIO DEBUG ==========
+[2026-06-11 05:21:27] Action: save_player
+[2026-06-11 05:21:27] POST ID: 203
+[2026-06-11 05:21:27] POST completo: Array
+(
+    [action] => save_player
+    [id] => 203
+    [position_id] => RB
+    [primeiro_nome] => Edgar
+    [ultimo_nome] => Teixeira
+    [data_nascimento] => 1997-11-27
+    [altura_cm] => 180
+    [peso_kg] => 80.00
+    [pe_dominante] => D
+    [ativo] => 1
+    [team_id] => 51
+    [position_radio] => RB
+    [wage_monthly] => 
+    [contract_season_id] => 6
+    [contract_clauses] => 
+    [mensalidade_epoca] => 6
+    [mensalidade_valor] => 
+    [mensalidade_metodo_pagamento] => 
+    [mensalidade_observacoes] => 
+    [has_contract] => 0
+    [has_mensalidade] => 0
+)
+
+[2026-06-11 05:21:27] FILES recebidos: Array
+(
+    [photo] => Array
+        (
+            [name] => 1323043_chico_sousa_20250811115913.jpg
+            [full_path] => 1323043_chico_sousa_20250811115913.jpg
+            [type] => image/jpeg
+            [tmp_name] => /home/uploads/phpNOI2K4
+            [error] => 0
+            [size] => 77266
+        )
+
+)
+
+[2026-06-11 05:21:27] ✅ Arquivo 'photo' existe em FILES
+[2026-06-11 05:21:27] Nome: 1323043_chico_sousa_20250811115913.jpg
+[2026-06-11 05:21:27] Tipo: image/jpeg
+[2026-06-11 05:21:27] Tamanho: 77266 bytes
+[2026-06-11 05:21:27] Erro: 0
+[2026-06-11 05:21:27] Temp: /home/uploads/phpNOI2K4
+[2026-06-11 05:21:27] ✅ Arquivo temporário existe
+[2026-06-11 05:21:27] Upload max size: 20M
+[2026-06-11 05:21:27] Post max size: 30M
+[2026-06-11 05:21:27] Memory limit: 512M
+[2026-06-11 05:21:27] ========== FIM DEBUG ==========
+
+[2026-06-11 05:21:27] 📋 Dados recebidos:
+[2026-06-11 05:21:27] ID: 203
+[2026-06-11 05:21:27] Nome: Edgar Teixeira
+[2026-06-11 05:21:27] Posição: RB
+[2026-06-11 05:21:27] Equipa: 51
+[2026-06-11 05:21:27] Foto antiga: /logos/player_1779959439_6a18068fe61cd.jpg
+[2026-06-11 05:21:27] 🔄 Iniciando upload da foto...
+[2026-06-11 05:21:27] Tentando mover de: /home/uploads/phpNOI2K4
+[2026-06-11 05:21:27] Para: /home/vol9_8/infinityfree.com/if0_42155522/htdocs/logos/player_1781169687_6a2a7e1769b15.jpg
+[2026-06-11 05:21:27] ✅ Foto guardada com sucesso: /logos/player_1781169687_6a2a7e1769b15.jpg
+[2026-06-11 05:21:27] 🔄 Atualizando jogador ID: 203
+[2026-06-11 05:21:27] ✅ Jogador atualizado
