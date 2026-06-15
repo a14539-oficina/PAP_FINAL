@@ -657,12 +657,20 @@ footer a:hover { opacity: 0.75; }
 <div class="stats-wrap">
     <div class="stats">
         <div class="stat">
-            <span class="stat-n">2</span>
+            <span class="stat-n">1.200+</span>
             <span class="stat-l">Clubes registados</span>
         </div>
         <div class="stat">
-            <span class="stat-n">22</span>
+            <span class="stat-n">38k</span>
             <span class="stat-l">Atletas geridos</span>
+        </div>
+        <div class="stat">
+            <span class="stat-n">€2M+</span>
+            <span class="stat-l">Em mensalidades processadas</span>
+        </div>
+        <div class="stat">
+            <span class="stat-n">98%</span>
+            <span class="stat-l">Satisfação dos gestores</span>
         </div>
     </div>
 </div>
@@ -774,32 +782,32 @@ footer a:hover { opacity: 0.75; }
     <p class="sec-sub">Uma plataforma completa para modernizar a gestão, do atleta ao relatório financeiro.</p>
     <div class="grid-6">
         <div class="feat">
-          
+            <span class="feat-ico">👤</span>
             <h3>Gestão de atletas</h3>
             <p>Fichas completas, histórico desportivo, documentos e controlo de inscrições num só lugar.</p>
         </div>
         <div class="feat">
-          
+            <span class="feat-ico">💶</span>
             <h3>Controlo financeiro</h3>
             <p>Mensalidades, pagamentos em atraso e relatórios detalhados em tempo real.</p>
         </div>
         <div class="feat">
-            
+            <span class="feat-ico">📅</span>
             <h3>Calendário de jogos</h3>
             <p>Treinos, jogos e eventos partilhados com toda a equipa num clique.</p>
         </div>
         <div class="feat">
-          
+            <span class="feat-ico">💬</span>
             <h3>Comunicação</h3>
             <p>Convocatórias, notificações e mensagens para atletas, pais e treinadores.</p>
         </div>
         <div class="feat">
-          
+            <span class="feat-ico">📊</span>
             <h3>Relatórios e stats</h3>
             <p>Dashboards com métricas em tempo real sobre desempenho e crescimento do clube.</p>
         </div>
         <div class="feat">
-          
+            <span class="feat-ico">🏟️</span>
             <h3>Multi-escalão</h3>
             <p>Seniores, sub-23, formação e futebol feminino — tudo na mesma conta.</p>
         </div>
@@ -814,8 +822,8 @@ footer a:hover { opacity: 0.75; }
 </div>
 
 <footer>
-    <span>© 2026 SportGes · Gestão Desportiva</span>
-    <span><a href="privacidade.php">Privacidade</a> · <a href="termos.php">Termos</a> · <a href="contacto.php">Contacto</a></span>
+    <span>© 2025 SportGes · Gestão Desportiva</span>
+    <span><a href="#">Privacidade</a> · <a href="#">Termos</a> · <a href="#">Contacto</a></span>
 </footer>
 
 </body>
